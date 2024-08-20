@@ -1,0 +1,20 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment files
+.git reset HEAD .
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore package.json and package-lock.json
+package.json
+package-lock.json
+
+# Ignore any other files or directories
+.DS_Store
+dist/
+build/
+coverage/
